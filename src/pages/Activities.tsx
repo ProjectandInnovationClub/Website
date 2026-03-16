@@ -100,8 +100,8 @@ const pastEvents = [
 const upcomingEvent = {
   title: "National Level Project Competition 2026",
   date: "28 March 2026",
-  registrationLink: "https://your-registration-link.com",
-  poster: "/images/project-competition-poster.jpg",
+  registrationLink: "https://forms.gle/EzecYCSXqEsVUxHy8  ",
+  poster: "/project-competition-poster.jpeg",
   description:
     "The Project & Innovation Club is organizing a National Level Project Competition where students from various institutions will showcase innovative projects in technology, research, and engineering.",
   highlights: [
