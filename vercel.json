@@ -1,9 +1,0 @@
-{
-  "redirects": [
-    {
-      "source": "/(.*)",
-      "destination": "https://picpccoer.in/$1",
-      "permanent": true
-    }
-  ]
-}
