@@ -95,6 +95,18 @@ const pastEvents = [
       "/Research/ss3.png",
     ],
   },
+  {
+    title: "National Level Project Competition",
+    description:
+    "The National Level Project Competition brought together innovative minds from various institutions to showcase creative and impactful projects. Participants demonstrated technical excellence, problem-solving skills, and cutting-edge ideas across multiple domains.",
+    images: [
+       "/InnovationXpo2026/Inaugration Photo.png",
+       "/InnovationXpo2026/Judges Photo.png",
+       "InnovationXpo2026/participate photos.jpg",
+       "InnovationXpo2026/Evaluation Photo.jpg",
+       "InnovationXpo2026/Picture5.jpg",
+    ]
+  }
 ];
 
 const upcomingEvent = {
@@ -136,77 +148,76 @@ const Activities = () => {
           </motion.div>
         </div>
       </section>
+ {/*
 
-      {/* Upcoming Event */}
-      <section className="section-padding pt-0">
-        <div className="container mx-auto">
-          <SectionHeading
-            badge="Coming Soon"
-            title="Featured"
-            gradientTitle="Event"
+ {Upcoming event section}
+<section className="section-padding pt-0">
+  <div className="container mx-auto">
+    <SectionHeading
+      badge="Coming Soon"
+      title="Featured"
+      gradientTitle="Event"
+    />
+    <motion.div
+      initial={{ opacity: 0, y: 30 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true }}
+      transition={{ duration: 0.6 }}
+      className="max-w-6xl mx-auto glass-hover rounded-2xl p-6 md:p-10"
+    >
+      <div className="grid md:grid-cols-2 gap-10 items-center">
+
+      {Poster Image}
+        <div className="rounded-xl overflow-hidden border border-white/10">
+          <img
+            src={upcomingEvent.poster}
+            alt={upcomingEvent.title}
+            className="w-full h-full object-cover"
           />
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6 }}
-            className="max-w-6xl mx-auto glass-hover rounded-2xl p-6 md:p-10"
-          >
-            <div className="grid md:grid-cols-2 gap-10 items-center">
-
-              {/* Poster Image */}
-              <div className="rounded-xl overflow-hidden border border-white/10">
-                <img
-                  src={upcomingEvent.poster}
-                  alt={upcomingEvent.title}
-                  className="w-full h-full object-cover"
-                />
-              </div>
-
-              {/* Event Info */}
-              <div>
-                <div className="flex items-center gap-3 mb-4">
-                  <Clock size={20} className="text-primary" />
-                  <span className="text-primary font-semibold text-sm">
-                    {upcomingEvent.date}
-                  </span>
-                </div>
-
-                <h3 className="font-display font-bold text-2xl md:text-3xl mb-4">
-                  {upcomingEvent.title}
-                </h3>
-
-                <p className="text-muted-foreground mb-6 leading-relaxed">
-                  {upcomingEvent.description}
-                </p>
-
-                {/* Highlights */}
-                <div className="flex flex-wrap gap-3 mb-6">
-                  {upcomingEvent.highlights.map((h, i) => (
-                    <span
-                      key={i}
-                      className="px-4 py-1.5 rounded-full text-xs font-medium bg-primary/10 text-primary border border-primary/20"
-                    >
-                      {h}
-                    </span>
-                  ))}
-                </div>
-
-                {/* Register Button */}
-                <a
-                  href={upcomingEvent.registrationLink}
-                  target="_blank"
-                  className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-primary text-white font-semibold hover:opacity-90 transition"
-                >
-                  Register Now
-                  <Calendar size={18} />
-                </a>
-              </div>
-
-            </div>
-          </motion.div>
         </div>
-      </section>
+      {Event Info}
+        <div>
+          <div className="flex items-center gap-3 mb-4">
+            <Clock size={20} className="text-primary" />
+            <span className="text-primary font-semibold text-sm">
+              {upcomingEvent.date}
+            </span>
+          </div>
+
+          <h3 className="font-display font-bold text-2xl md:text-3xl mb-4">
+            {upcomingEvent.title}
+          </h3>
+
+          <p className="text-muted-foreground mb-6 leading-relaxed">
+            {upcomingEvent.description}
+          </p>
+        {Highlights}
+          <div className="flex flex-wrap gap-3 mb-6">
+            {upcomingEvent.highlights.map((h, i) => (
+              <span
+                key={i}
+                className="px-4 py-1.5 rounded-full text-xs font-medium bg-primary/10 text-primary border border-primary/20"
+              >
+                {h}
+              </span>
+            ))}
+          </div>
+        {Register Button}
+          <a
+            href={upcomingEvent.registrationLink}
+            target="_blank"
+            className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-primary text-white font-semibold hover:opacity-90 transition"
+          >
+            Register Now
+            <Calendar size={18} />
+          </a>
+        </div>
+
+      </div>
+    </motion.div>
+  </div>
+</section>
+*/}
 
       {/* Activities */}
       <section className="section-padding pt-0">
