@@ -1,73 +1,69 @@
-# Welcome to your Lovable project
+# 🌐 Project & Innovation Club Website
 
-## Project info
+Official website of the **Project & Innovation Club (PIC)**  
+📍 *Pimpri Chinchwad College of Engineering & Research (PCCOER)*  
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
 
-## How can I edit this code?
+## 🚀 Overview
+A modern platform to showcase student innovation, highlight events, and keep the community engaged.
 
-There are several ways of editing your application.
+## ✨ Features
+- 📅 **Past Events Section** with latest updates  
+- 🖼️ **Event Gallery** with images  
+- 📢 **Activity Highlights & Announcements**  
+- 📱 **Responsive Design (Mobile + Desktop)**  
+- ⚡ **Smooth Animations**
 
-**Use Lovable**
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+## 🛠️ Tech Stack
+- ⚛️ React  
+- 🎨 Tailwind CSS  
+- 🎞️ Framer Motion  
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🔒 Repository Access
+> ⚠️ This repository is **private**
 
-**Use your preferred IDE**
+- Access is restricted to authorized contributors  
+- Contact the Club Lead for contributor access  
+- External contributions are not permitted  
+## 📂 Getting Started (Authorized Users Only)
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
+### 1. Clone the Repository
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+git clone https://github.com/ProjectandInnovationClub/Website.git
+```
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+2. Navigate to Project Folder
+```sh
+cd Website
+```
 
-# Step 3: Install the necessary dependencies.
-npm i
+3. Install Dependencies
+```sh
+npm install
+```
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+4. Run Locally
+```sh
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+📸 Recent Updates
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+- ✅ Updated Past Events section with latest event details
+- 🖼️ Added event images (InnovationXpo 2026)
+- ❌ Removed Coming Soon section from Activities page
 
-**Use GitHub Codespaces**
+🤝 Contribution Guidelines
+- Create a new branch for each change
+- Do not push directly to main
+- Write meaningful commit messages
+- Raise a Pull Request (PR) for review
+- PR must be verified by the Technical/Web Development Team Head
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+📬 Contact
 
-## What technologies are used for this project?
+For access or queries, contact the Project & Innovation Club (PIC) team.
 
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+💡 Note
+This project is maintained by students to promote innovation and collaboration.
