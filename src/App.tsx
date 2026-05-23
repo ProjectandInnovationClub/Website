@@ -10,6 +10,7 @@ import Team from "./pages/Team.tsx";
 import Activities from "./pages/Activities.tsx";
 import Contact from "./pages/Contact.tsx";
 import NotFound from "./pages/NotFound.tsx";
+import RecuritmentRegister from "./pages/RecuritmentRegister.tsx";
 
 const queryClient = new QueryClient();
 
@@ -26,6 +27,7 @@ const App = () => (
           <Route path="/activities" element={<Activities />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<NotFound />} />
+          <Route path="/register" element={<RecuritmentRegister />} />
         </Routes>
         <Footer />
       </BrowserRouter>
